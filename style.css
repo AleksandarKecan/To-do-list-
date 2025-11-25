@@ -1,0 +1,70 @@
+*{
+    background-color: bisque;
+    margin: 0;
+}
+.title{
+    margin:0;
+    text-align: center;
+    justify-content: center;
+    background-color: #ffd57c;
+}
+.showInfo{
+    margin-left:70%;
+    border-radius:20px;
+    height:50px;
+    width:85px;
+    font-size:medium;
+    position:absolute;
+    border-width:5px;
+}
+.showInfo:hover{
+    background-color:#7979de;
+    transform:rotate(10deg);
+}
+
+.addTask{
+    position:absolute;
+    height:50px;
+    width:95px;
+    border-radius:20px;
+    margin-left:25%;
+    border:none;
+}
+.addTask:hover{
+    background-color:#e192ff;
+    transform:rotate(-15deg);
+}
+#taskList{
+    margin-left:46%;
+    margin-top:15%;
+    list-style-type:none;
+    font-style:oblique;
+}
+#taskInput{
+    position:absolute;
+    background-color:#b0f2ff;
+    height:30px;
+    width:180px;
+    font-size:medium;
+    font-style:oblique;
+    text-align:center;
+    justify-content:center;
+    margin-left:45%;
+    margin-top:10%;
+}
+#message{
+    background-color:#fac3c3;
+    position:absolute;
+    margin-top:40%;
+    margin-left:31%;
+}
+.deleteItem{
+    background-color:#f9f9fd;
+    border-radius:50%;
+    padding:10px;
+    padding-inline-start:10px;
+}
+.deleteItem:hover{
+    background-color:yellowgreen;
+    
+}
